@@ -1,0 +1,19 @@
+
+
+ 
+div{
+    overflow: auto;
+    height: 250px;
+    width: 500px;
+    background-color: pink;
+    border: 2px solid black;
+    text-align: start;
+    margin: auto;
+}
+ul{
+    background-color: blue;
+}
+li{
+    background-color: red;
+}
+
