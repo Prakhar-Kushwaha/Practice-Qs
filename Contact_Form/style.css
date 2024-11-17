@@ -2,6 +2,7 @@ h1{
     text-align: center;
     font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
+  background-color: rgb(251, 158, 174);
 }
 body{
     all: unset;
@@ -20,6 +21,7 @@ body{
     row-gap:5px;
     
     
+    
 }
 input{
     border-radius: 10px;
@@ -27,22 +29,44 @@ input{
     height: 25px;
     width: 20rem;
     margin-bottom: 15px;
+    color: blue;
+    box-shadow: 8px 5px 12px  ;
 }
 label{
     font-family: "Varela Round", sans-serif;
-  font-weight: 400;
+    font-weight: 400;
     color: purple;
     font-size: large;
     
 }
 textarea{
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: lightblue;
-
+    color:rgb(16, 21, 183);
+    box-shadow: 8px 5px 12px  ;
 }
 footer{
     position:absolute;
     text-align: center;
-    width: 100vh;
-    bottom :10px;
+    width: 100%;
+    bottom :5px;
+    background-color: rgb(250, 83, 111);
 }
+img{
+    width:40px;
+    height: 40px;
+}
+span{
+    
+    position: fixed;
+    right: 2px;
+    bottom:45px;
+    
+    
+}
+
+span:hover{
+    cursor:pointer;
+    
+} 
+
